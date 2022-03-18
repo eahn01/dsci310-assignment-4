@@ -4,13 +4,16 @@ author: "Tiffany Timbers & Jordan Bourak"
 output:
   bookdown::html_document2
   bookdown::pdf_document2
+  toc: true
+  toc_depth: 2
+  
 ---
 
 ```{r}
 library(tidyverse)
 ```
 
-Aim
+##Aim
 
 This project explores the historical population of horses in Canada between 1906 and 1972 for each province.
 
