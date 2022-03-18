@@ -41,7 +41,7 @@ Suppose we were interested in looking in more closely at the province with the h
 ```{r}
 horses_sd_table <- read_csv("../../results/horses_sd.csv")
 largest_sd <- horses_sd_table$Province[1]
-knitr::kable(horses_sd_table)
+knitr::kable(horses_sd_table, caption = "province with highest spread in terms of horse population(in terms of standard deviation).")
 ```
 
 Note that we define standard deviation (of a sample) as
@@ -56,6 +56,6 @@ See Figure \@ref(fig:horse).
 knitr::include_graphics("../../results/horse_pop_plot_largest_sd.png")
 ```
 
-In Figure 2 we zoom in and look at the province of ?, which had the largest spread of values in terms of standard deviation.
+In Figure 2 we zoom in and look at the province of 'r c, which had the largest spread of values in terms of standard deviation.
 
 # References
